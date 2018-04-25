@@ -1,0 +1,23 @@
+{
+    "name": "realtime-visualization-react",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "node server.js",
+        "build": "next build",
+        "start": "NODE_ENV=production node server.js"
+    },
+    "dependencies": {
+        "axios": "^0.18.0",
+        "body-parser": "^1.18.2",
+        "chart.js": "^2.7.2",
+        "cors": "^2.8.4",
+        "dotenv": "^5.0.1",
+        "express": "^4.16.3",
+        "next": "^5.1.0",
+        "pusher": "^1.5.1",
+        "pusher-js": "^4.2.2",
+        "react": "^16.3.2",
+        "react-chartjs-2": "^2.7.0",
+        "react-dom": "^16.3.2"
+    }
+}
