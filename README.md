@@ -1,12 +1,42 @@
-# realtime-visualization-react-sourcecode
+# Realtime Data Visualization (Next.JS & Pusher)
 
-Source code for tutorial on building a very simple real time data visualization application based on a poll use-case using some very popular and powerful technologies namely - [Next.js](https://learnnextjs.com/), [React](https://reactjs.org/) and [Pusher](https://pusher.com/).
+This project contains the source code for a very simple realtime data visualization application based on a poll. Here is a run-down of the core technologies used in this project.
 
-Here is a simple screenshot.
+1. [Next.js](https://learnnextjs.com/) - A framework for building server-side rendered React applications with ease. It handles most of the challenges that come with building SSR React apps.
 
-![Chat App Screenshot](https://i.imgur.com/4369jkl.png)
+2. [Pusher](https://pusher.com/) - Pusher is a technology for building apps with varying realtime needs like push notifications and pub/sub messaging. It is the engine behind the realtime ability of our data visualization app.
 
-**In order to run the demo on your local machine and experiment with the source code, do the following:**
+3. [Chart.js](http://www.chartjs.org/) - Chart.js is a simple yet flexible JavaScript charting library that makes it possible to create different types of data visualization charts via a programmable interface.
+
+4. [React](https://reactjs.org/) - A very popular JavaScript DOM rendering framework for building scalable web applications using a component-based architecture.
+
+Here is a screenshot of the application.
+
+![App Screenshot](https://i.imgur.com/4369jkl.png)
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+1. **Install Node on your machine** - Ensure that you have `node` and `npm` or `yarn` installed on your machine. You can easily check to see if they are already installed by running the following commands respectively.
+
+```sh
+node -v
+```
+
+```sh
+npm -v
+```
+
+```sh
+yarn -v
+```
+
+2. **Create a Pusher application** - Create a new application on your [Pusher Dashboard](https://dashboard.pusher.com/) to get your app credentials.
+
+### Setup Instructions
 
 1. **Clone the repository** into a new directory on your machine.
 
@@ -33,7 +63,7 @@ PUSHER_APP_SECRET=(YOUR_APP_SECRET)
 PUSHER_APP_CLUSTER=(YOUR_APP_CLUSTER)
 ```
 
-4. **Finally, start the demo app** by running the following command. The app will runs on port 3000 except that port is already in use.
+4. **Start the app** by running the following command. The app will runs on port 3000 except that port is already in use.
 
 ```sh
 npm run dev
