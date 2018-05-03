@@ -27,7 +27,7 @@ npm install
 or using `yarn`
 
 ```sh
-yarn add
+yarn install
 ```
 
 3. **Create a `.env` file** in the root of the new directory with the following content.
