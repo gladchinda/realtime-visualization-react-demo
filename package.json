@@ -4,7 +4,8 @@
     "scripts": {
         "dev": "node server.js",
         "build": "next build",
-        "start": "NODE_ENV=production node server.js"
+        "prod:server": "cross-env NODE_ENV=production node server.js",
+        "start": "npm-run-all -s build prod:server"
     },
     "dependencies": {
         "axios": "^0.18.0",
@@ -19,5 +20,9 @@
         "react": "^16.3.2",
         "react-chartjs-2": "^2.7.0",
         "react-dom": "^16.3.2"
+    },
+    "devDependencies": {
+        "cross-env": "^5.1.4",
+        "npm-run-all": "^4.1.2"
     }
 }
