@@ -1,6 +1,10 @@
 # Realtime Data Visualization (Next.js & Pusher)
 
-This project contains the source code for a very simple realtime data visualization application based on a poll. Here is a screenshot of the application.
+This project contains the source code for a very simple realtime data visualization application based on a poll. 
+
+[View tutorial](https://pusher.com/tutorials/realtime-data-visualization-nextjs)
+
+Here is a screenshot of the application.
 
 ![App Screenshot](https://i.imgur.com/4369jkl.png)
 
