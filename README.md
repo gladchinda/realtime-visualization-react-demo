@@ -1,8 +1,8 @@
 # Realtime Data Visualization (Next.js & Pusher)
-
-This project contains the source code for a very simple realtime data visualization application based on a poll. 
-
+ 
 [View tutorial](https://pusher.com/tutorials/realtime-data-visualization-nextjs)
+
+This project contains the source code for a very simple realtime data visualization application based on a poll.
 
 Here is a screenshot of the application.
 
@@ -45,7 +45,7 @@ PUSHER_APP_SECRET=YOUR_APP_SECRET
 PUSHER_APP_CLUSTER=YOUR_APP_CLUSTER
 ```
 
-4. **Start the app** by running the following command. The app will runs on port 3000 except that port is already in use.
+4. **Start the app** by running the following command. The app will run on port 3000 except that port is already in use.
 
 ```sh
 npm run dev
