@@ -1,6 +1,6 @@
 # Realtime Data Visualization (Next.js & Pusher)
- 
-[View tutorial](https://pusher.com/tutorials/realtime-data-visualization-nextjs)
+
+**You can check out the complete tutorial on the Pusher tutorial repository: [REALTIME DATA VISUALIZATION USING NEXT.JS AND CHART.JS](https://pusher.com/tutorials/realtime-data-visualization-nextjs).**
 
 This project contains the source code for a very simple realtime data visualization application based on a poll.
 
